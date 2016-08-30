@@ -17,4 +17,11 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- 定义edittext的风格 -->
+    <style name="edittext">
+        <item name="android:background">@drawable/edittext</item>
+        <item name="android:layout_width">@dimen/edittext_width</item>
+        <item name="android:layout_height">@dimen/edittext_height</item>
+        <item name="android:paddingLeft">@dimen/edittext_padding_left</item>
+    </style>
 </resources>
